@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password - Generator</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Content -->
+  <div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="d-flex flex-column">
+      <h1>PASSWORD GENERATOR</h1>
+
+      <!-- Input -->
+      <div class="d-flex flex-column gap-2 mt-2">
+        <label for="passLength" class="text-uppercase fw-bold">Panjang Password</label>
+        <input type="number" class="form-control form-control-lg" id="passLength">
+        <label for="pass" class="text-uppercase fw-bold">Password</label>
+        <input class="form-control form-control-lg" id="pass" disabled>
+        <button class="btn btn-primary btn-lg text-uppercase fw-bold mt-2" onclick="getPass()">Generate Password</button>
+        <a class="btn btn-success btn-lg text-uppercase fw-bold mt-2" onclick="savePass()" id="saveBtn">Save Password</a>
+      </div>
+      <!-- Input -->
+
+    </div>
+  </div>
+  <!-- Content End -->
+
+  <!-- Script -->
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
+  <script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script><a data-type="countdown" data-id="3614320" class="tickcounter" style="display: block; width: 100%; position: relative; padding-bottom: 25%" title="Countdown" href="//www.tickcounter.com/">Countdown</a>
+</body>
+
+</html>
